@@ -17,9 +17,13 @@ char *my_strcpy(char *t,char *s){
   return p;
 }
 
-char *my_strcat(){
-  char *p;
-  return p;
+char *my_strcat(char *t,char *s){
+  char *p=t;
+  while(*p)
+    ++p;
+  while(*p++=*s++)
+  ;
+  return t;
 }
 
 int main(void){
