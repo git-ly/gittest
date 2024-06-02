@@ -17,6 +17,11 @@ char *my_strcpy(char *t,char *s){
   return p;
 }
 
+char *my_strcat(){
+  char *p;
+  return p;
+}
+
 int main(void){
     int i;
     char *s[]={
