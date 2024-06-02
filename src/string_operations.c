@@ -6,7 +6,7 @@ size_t my_strlen(const char *s){
     while(*p)
       ++p;
 
-    return (p-s)
+    return (p-s);
 }
 
 char *my_strcpy(char *t,char *s){
@@ -25,7 +25,7 @@ int main(void){
     };
 
     for(i=0; i < 2; ++i)
-      print("string length of %s=%d\n",s[i],my_strlen(s[i]));
+      printf("string length of %s=%d\n",s[i],my_strlen(s[i]));
 
     return 0;
 }
